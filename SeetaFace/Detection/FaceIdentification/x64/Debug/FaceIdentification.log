@@ -1,0 +1,45 @@
+﻿生成启动时间为 2018/12/17 20:24:22。
+     1>项目“D:\study\seetaface\Face_test\SeetaFace\Detection\FaceIdentification\FaceIdentification.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D FACEIDENTIFICATION_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\FaceIdentification.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D FACEIDENTIFICATION_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\FaceIdentification\src\bias_adder_net.cpp ..\..\FaceIdentification\src\blob.cpp ..\..\FaceIdentification\src\bn_net.cpp ..\..\FaceIdentification\src\common_net.cpp ..\..\FaceIdentification\src\conv_net.cpp ..\..\FaceIdentification\src\eltwise_net.cpp ..\..\FaceIdentification\src\inner_product_net.cpp ..\..\FaceIdentification\src\log.cpp ..\..\FaceIdentification\src\math_functions.cpp ..\..\FaceIdentification\src\max_pooling_net.cpp ..\..\FaceIdentification\src\net.cpp ..\..\FaceIdentification\src\pad_net.cpp ..\..\FaceIdentification\src\spatial_transform_net.cpp ..\..\FaceIdentification\src\tform_maker_net.cpp ..\..\FaceIdentification\tools\aligner.cpp ..\..\FaceIdentification\tools\face_identification.cpp FaceIdentification.cpp
+         FaceIdentification.cpp
+         face_identification.cpp
+     1>..\..\FaceIdentification\tools\face_identification.cpp(32): fatal error C1083: 无法打开包括文件: “face_identification.h”: No such file or directory
+         aligner.cpp
+     1>..\..\FaceIdentification\tools\aligner.cpp(32): fatal error C1083: 无法打开包括文件: “tform_maker_net.h”: No such file or directory
+         tform_maker_net.cpp
+     1>..\..\FaceIdentification\src\tform_maker_net.cpp(32): fatal error C1083: 无法打开包括文件: “tform_maker_net.h”: No such file or directory
+         spatial_transform_net.cpp
+     1>..\..\FaceIdentification\src\spatial_transform_net.cpp(32): fatal error C1083: 无法打开包括文件: “spatial_transform_net.h”: No such file or directory
+         pad_net.cpp
+     1>..\..\FaceIdentification\src\pad_net.cpp(32): fatal error C1083: 无法打开包括文件: “pad_net.h”: No such file or directory
+         net.cpp
+     1>..\..\FaceIdentification\src\net.cpp(32): fatal error C1083: 无法打开包括文件: “net.h”: No such file or directory
+         max_pooling_net.cpp
+     1>..\..\FaceIdentification\src\max_pooling_net.cpp(32): fatal error C1083: 无法打开包括文件: “max_pooling_net.h”: No such file or directory
+         math_functions.cpp
+     1>..\..\FaceIdentification\src\math_functions.cpp(32): fatal error C1083: 无法打开包括文件: “math_functions.h”: No such file or directory
+         log.cpp
+     1>..\..\FaceIdentification\src\log.cpp(32): fatal error C1083: 无法打开包括文件: “log.h”: No such file or directory
+         inner_product_net.cpp
+     1>..\..\FaceIdentification\src\inner_product_net.cpp(32): fatal error C1083: 无法打开包括文件: “inner_product_net.h”: No such file or directory
+         eltwise_net.cpp
+     1>..\..\FaceIdentification\src\eltwise_net.cpp(32): fatal error C1083: 无法打开包括文件: “eltwise_net.h”: No such file or directory
+         conv_net.cpp
+     1>..\..\FaceIdentification\src\conv_net.cpp(32): fatal error C1083: 无法打开包括文件: “conv_net.h”: No such file or directory
+         common_net.cpp
+     1>..\..\FaceIdentification\src\common_net.cpp(32): fatal error C1083: 无法打开包括文件: “common_net.h”: No such file or directory
+         bn_net.cpp
+     1>..\..\FaceIdentification\src\bn_net.cpp(32): fatal error C1083: 无法打开包括文件: “bn_net.h”: No such file or directory
+         blob.cpp
+     1>..\..\FaceIdentification\src\blob.cpp(32): fatal error C1083: 无法打开包括文件: “blob.h”: No such file or directory
+         bias_adder_net.cpp
+     1>..\..\FaceIdentification\src\bias_adder_net.cpp(32): fatal error C1083: 无法打开包括文件: “bias_adder_net.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“D:\study\seetaface\Face_test\SeetaFace\Detection\FaceIdentification\FaceIdentification.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.81

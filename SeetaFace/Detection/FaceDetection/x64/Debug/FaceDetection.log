@@ -1,0 +1,35 @@
+﻿生成启动时间为 2018/12/17 20:24:21。
+     1>项目“D:\study\seetaface\Face_test\SeetaFace\Detection\FaceDetection\FaceDetection.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D FACEDETECTION_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\FaceDetection.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D FACEDETECTION_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\FaceDetection\src\classifier\lab_boosted_classifier.cpp ..\..\FaceDetection\src\classifier\mlp.cpp ..\..\FaceDetection\src\classifier\surf_mlp.cpp ..\..\FaceDetection\src\face_detection.cpp ..\..\FaceDetection\src\feat\lab_feature_map.cpp ..\..\FaceDetection\src\feat\surf_feature_map.cpp ..\..\FaceDetection\src\fust.cpp ..\..\FaceDetection\src\io\lab_boost_model_reader.cpp ..\..\FaceDetection\src\io\surf_mlp_model_reader.cpp ..\..\FaceDetection\src\util\image_pyramid.cpp ..\..\FaceDetection\src\util\nms.cpp FaceDetection.cpp
+         FaceDetection.cpp
+         nms.cpp
+     1>..\..\FaceDetection\src\util\nms.cpp(32): fatal error C1083: 无法打开包括文件: “util/nms.h”: No such file or directory
+         image_pyramid.cpp
+     1>..\..\FaceDetection\src\util\image_pyramid.cpp(32): fatal error C1083: 无法打开包括文件: “util/image_pyramid.h”: No such file or directory
+         surf_mlp_model_reader.cpp
+     1>..\..\FaceDetection\src\io\surf_mlp_model_reader.cpp(32): fatal error C1083: 无法打开包括文件: “io/surf_mlp_model_reader.h”: No such file or directory
+         lab_boost_model_reader.cpp
+     1>..\..\FaceDetection\src\io\lab_boost_model_reader.cpp(32): fatal error C1083: 无法打开包括文件: “io/lab_boost_model_reader.h”: No such file or directory
+         fust.cpp
+     1>..\..\FaceDetection\src\fust.cpp(32): fatal error C1083: 无法打开包括文件: “fust.h”: No such file or directory
+         surf_feature_map.cpp
+     1>..\..\FaceDetection\src\feat\surf_feature_map.cpp(33): fatal error C1083: 无法打开包括文件: “feat/surf_feature_map.h”: No such file or directory
+         lab_feature_map.cpp
+     1>..\..\FaceDetection\src\feat\lab_feature_map.cpp(32): fatal error C1083: 无法打开包括文件: “feat/lab_feature_map.h”: No such file or directory
+         face_detection.cpp
+     1>..\..\FaceDetection\src\face_detection.cpp(32): fatal error C1083: 无法打开包括文件: “face_detection.h”: No such file or directory
+         surf_mlp.cpp
+     1>..\..\FaceDetection\src\classifier\surf_mlp.cpp(32): fatal error C1083: 无法打开包括文件: “classifier/surf_mlp.h”: No such file or directory
+         mlp.cpp
+     1>..\..\FaceDetection\src\classifier\mlp.cpp(32): fatal error C1083: 无法打开包括文件: “classifier/mlp.h”: No such file or directory
+         lab_boosted_classifier.cpp
+     1>..\..\FaceDetection\src\classifier\lab_boosted_classifier.cpp(32): fatal error C1083: 无法打开包括文件: “classifier/lab_boosted_classifier.h”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“D:\study\seetaface\Face_test\SeetaFace\Detection\FaceDetection\FaceDetection.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.05

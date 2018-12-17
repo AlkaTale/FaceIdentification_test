@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\classifier">
+      <UniqueIdentifier>{c42a73c4-ce18-4d65-8cb3-d6a1c302b038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\feat">
+      <UniqueIdentifier>{c6d039d3-68d4-45bd-932e-fa2b74621ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\io">
+      <UniqueIdentifier>{f062c3ba-c7fd-4721-8464-6e2bbc6a5071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util">
+      <UniqueIdentifier>{e1d5a3b9-14cd-44a3-bbcb-7d1a23e80657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\feat">
+      <UniqueIdentifier>{5e8afd22-d875-466a-9d8e-088b114f2505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\classifier">
+      <UniqueIdentifier>{27db52d7-e608-456a-a9ce-da96fb5a3efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\io">
+      <UniqueIdentifier>{ecf975d0-9d9a-4a52-90f4-760885888a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{b96b764b-e1ba-4e1e-b0d2-8a203fe6bfa0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FaceDetection\include\classifier\lab_boosted_classifier.h">
+      <Filter>头文件\classifier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FaceDetection\include\classifier\mlp.h">
+      <Filter>头文件\classifier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FaceDetection\include\classifier\surf_mlp.h">
+      <Filter>头文件\classifier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FaceDetection\include\feat\lab_feature_map.h">
+      <Filter>头文件\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FaceDetection\include\feat\surf_feature_map.h">
+      <Filter>头文件\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FaceDetection\include\io\lab_boost_model_reader.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FaceDetection\include\io\surf_mlp_model_reader.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FaceDetection\include\util\image_pyramid.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FaceDetection\include\util\math_func.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FaceDetection\include\util\nms.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FaceDetection\include\classifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FaceDetection\include\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FaceDetection\include\detector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FaceDetection\include\face_detection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FaceDetection\include\feature_map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FaceDetection\include\fust.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FaceDetection\include\model_reader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceDetection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FaceDetection\src\face_detection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FaceDetection\src\fust.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FaceDetection\src\feat\lab_feature_map.cpp">
+      <Filter>源文件\feat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FaceDetection\src\feat\surf_feature_map.cpp">
+      <Filter>源文件\feat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FaceDetection\src\classifier\lab_boosted_classifier.cpp">
+      <Filter>源文件\classifier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FaceDetection\src\classifier\mlp.cpp">
+      <Filter>源文件\classifier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FaceDetection\src\classifier\surf_mlp.cpp">
+      <Filter>源文件\classifier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FaceDetection\src\io\lab_boost_model_reader.cpp">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FaceDetection\src\io\surf_mlp_model_reader.cpp">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FaceDetection\src\util\image_pyramid.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FaceDetection\src\util\nms.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
